@@ -1,0 +1,30 @@
+{
+  "name": "angular-service-factory-provider-example",
+  "description": "showcase among service, factory, provider",
+  "main": "app.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "service",
+    "factory",
+    "provider"
+  ],
+  "authors": [
+    "jcchen"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Angular | service vs factory vs provider</title>
+    </head>
+    <body ng-controller="appCtrl">
+        <div>
+            <label>Name:</label>
+            <input type="text" ng-model="name" placeholder="Enter a name here"/>
+            <hr/>
+            <h1>Greeting from service</h1>
+            <p>{{name_from_service}}</p>
+            <h1>Greeting from factory</h1>
+            <p>{{name_from_factory}}</p>
+            <h1>Greeting from provider</h1>
+            <p>{{name_from_provider}}</p>
+        </div>
+
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
+
